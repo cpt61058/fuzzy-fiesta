@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS scores (
+  timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+  name TEXT,
+  easy INTEGER,
+  medium INTEGER,
+  hard INTEGER
+);
